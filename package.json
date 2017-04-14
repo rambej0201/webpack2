@@ -1,0 +1,29 @@
+{
+  "name": "webpack2basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rambej0201/webpack2.git"
+  },
+  "author": "rambej0201",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rambej0201/webpack2/issues"
+  },
+  "homepage": "https://github.com/rambej0201/webpack2#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "install": "^0.8.8",
+    "npm": "^4.5.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
